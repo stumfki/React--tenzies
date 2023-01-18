@@ -1,0 +1,117 @@
+
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: #0B2434 !important;
+}
+
+
+.tenzieHolder {
+  background-color: #F5F5F5;
+ 
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: #2B283A;
+}
+p {
+  color: #4A4E74;
+}
+
+.diceCont {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+.roll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roll h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.roll button {
+  align-self: center;
+  width: 50%;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .diceCont {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 0px;
+    margin: auto;
+    align-items:baseline;
+    
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .diceCont {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 0px;
+    margin: auto;
+  }
+}
+
+
+@media only screen and (min-width: 1300px) and (min-height:880px) {
+  html, body, #app, #app>div {
+    height: 100%
+  }
+  .diceCont {
+    display: grid;
+   
+    gap: 20px;
+    grid-template: auto auto / repeat(2, 1fr);
+    gap: 0px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tenzieHolder {
+    
+    
+    background-color: #F5F5F5;
+   
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+  }
+
+  .tenzieHolder h1 {
+    font-size: 50px;
+  }
+  .tenzieHolder p {
+    font-size: 30px;
+    padding: 30px;
+  }
+  
+}
