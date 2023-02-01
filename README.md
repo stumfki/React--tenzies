@@ -21,7 +21,7 @@ The objective of the game is to be the first player to get all ten of their dice
 
 **High Scores:**
 
-The game measures the time in seconds and keeps track of the high scores for each player. The high scores are displayed on the screen and updated after each game.
+The game measures the time in seconds and keeps track of your high scores. The high scores are displayed on the screen and updated after each game.
 
 **Conclusion:**
 
