@@ -89,7 +89,7 @@ p {
     grid-template: auto auto / repeat(2, 1fr);
     gap: 0px;
     margin: auto;
-    margin-top: 10%;
+    
   }
   #root {
     display: flex;
