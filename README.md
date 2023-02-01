@@ -1,5 +1,9 @@
 # React Tenzi Game Documentation:
 
+**Preview of the app:**
+
+https://tenziesdindobrnjic.netlify.app/
+
 **Introduction:**
 
 React Tenzi is a fun and interactive game that allows users to play the Tenzi game and track their high scores based on time in seconds. The game has been developed using React, a popular JavaScript library for building user interfaces.
